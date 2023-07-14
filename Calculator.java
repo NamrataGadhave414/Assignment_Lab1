@@ -7,12 +7,12 @@ import java.util.Scanner;
 
 public class Calculator {
 	public static void main(String[] args) {
-		char operator;
-		double Num1, Num2, result;
-		Scanner scanner = new Scanner(System.in);
+		char operator;  //Declare the Variable 
+		double Num1, Num2, result;   //Declare the Variable
+		Scanner scanner = new Scanner(System.in);  //Take the taking input from the user create Scanner class
 
 		System.out.println("Enter Num1 ");
-		Num1 = scanner.nextInt();
+		Num1 = scanner.nextInt();  //Initilize the vaiable
 
 		System.out.println("Enter a Operator");
 		operator = scanner.next().charAt(0);
