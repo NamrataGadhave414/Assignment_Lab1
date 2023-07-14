@@ -6,11 +6,12 @@ import java.util.Scanner;
 
 public class Voting {
 	public static void main(String[] args) {
-		int age; 
+		int age; //Declare the variable
+		//Take the input fromm the user Create the input of scanner class
 		Scanner scanner =new Scanner(System.in);
 		System.out.println("Enter your Age:");  
 		age=scanner.nextInt();
-		if (age >= 18) {
+		if (age >= 18) {  //Checking 
 			System.out.println("You Are  Eligible For Voting");
 		} else {
 			 System.out.println("You Are Not Eligible For Voting");
