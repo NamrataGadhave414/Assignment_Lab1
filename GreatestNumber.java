@@ -15,7 +15,7 @@ public class GreatestNumber {  //Derived class
 		System.out.println("Enter Second Number");
 		System.out.println("Enter Third Number");
 		
-		number1=scanner.nextInt();    //
+		number1=scanner.nextInt();    
 		number2=scanner.nextInt();
 		number3=scanner.nextInt();
 		if (number1> number2 && number1 > number3 ) {    //checking condition for find out greater number
