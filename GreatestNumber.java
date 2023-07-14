@@ -1,3 +1,6 @@
+
+//question:Accept Theree number from the user and find out the greatest number.
+
 package quest3_2_greatestnumber;
 
 import java.util.Scanner;
@@ -12,10 +15,10 @@ public class GreatestNumber {  //Derived class
 		System.out.println("Enter Second Number");
 		System.out.println("Enter Third Number");
 		
-		number1=scanner.nextInt();
+		number1=scanner.nextInt();    //
 		number2=scanner.nextInt();
 		number3=scanner.nextInt();
-		if (number1> number2 && number1 > number3 ) {
+		if (number1> number2 && number1 > number3 ) {    //checking condition for find out greater number
 			System.out.println(number1 +  " It's a Greater Number");
 		} else if(number2 > number3 ){
 			System.out.println(number2 + " It's a Greater Number");
