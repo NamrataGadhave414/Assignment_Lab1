@@ -1,3 +1,5 @@
+//question:Write A Program To Accept A Number From The User And Display The Multiplication Table
+
 package quest5_table;
 
 import java.util.Scanner;
